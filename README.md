@@ -6,7 +6,7 @@
 
 ## **Summary**
 
-- **8+ years of experience** in the analysis, design, development, implementation, and testing of applications.
+- **10+ years of experience** in the analysis, design, development, implementation, and testing of applications.
 - **Proficient in programming languages and frameworks** including C#, Java, Python, JavaScript, TypeScript, Web API, MVC, and Spring Boot.
 - **Skilled in designing scalable distributed systems** using microservices architecture (Kafka, RabbitMQ, gRPC, GraphQL).
 - **Experienced in system integration** with APIs and platforms such as Stripe, BambooHR, Personio, HiBob, Wise, and Xero.
@@ -21,10 +21,17 @@ Consistently deliver software solutions on schedule, adhering to best practices 
 ## **Technical Skills**
 
 **Programming & Databases:** C#, Python, Java, JavaScript, TypeScript, .NET, Spring Boot, Postgres, MySQL, SQL Server
+
 **Web & Frontend:** HTML5, CSS3, Bootstrap, Angular, React, FastAPI, Entity Framework
+
 **Cloud & Infrastructure:** Azure, AWS, Terraform, Docker, Kubernetes
+
 **Messaging & APIs:** Kafka, gRPC, GraphQL, Web API
+
+**AI/LLM Tools:** Claude Code, Codex, Augment Code
+
 **Tools & Environments:** Visual Studio, IntelliJ, Git, SQL Server Management Studio, pgAdmin, Postman, Fiddler
+
 **Design & Methodologies:** Singleton, DI, CQRS, Command Pattern, BFF, Agile, TDD
 
 ---
@@ -37,15 +44,24 @@ Consistently deliver software solutions on schedule, adhering to best practices 
 
 **Product:** Multiplier Customer and Operation Platforms (HR, Recruitment, Payroll, Employee Engagement)
 
-- Created and maintained microservices using Java/Kotlin, Spring Boot, GraphQL, and AWS.
-- Built secure authentication systems using JWT, ABAC, and RBAC for dynamic access control.
-- Implemented Backend-for-Frontend (BFF) pattern to optimize client-server interactions.
-- Integrated Stripe and Wise for payment processing and event-driven reconciliation.
-- Designed a workflow state machine with conditional transitions and side effects.
-- Integrated with BambooHR, Personio, and HiBob using Merge.dev.
-- Adopted schema-first design with Apollo Federation and schema registry.
-- Enhanced observability using ELK Stack, Grafana, and Sentry.
-- Managed CI/CD with AWS, ClickUp/Jira, Slack, and Notion.
+- Created and maintained multiple micro-services using Java/Kotlin, Spring Boot, GraphQL, and AWS.
+- Enhanced security protocols using Attribute-Based Access Control (ABAC) and Role-Based Access Control (RBAC) to enable dynamic resource access management
+- Implemented BFF (backend-for-frontend) pattern for optimized/simplified client-server interaction
+- Seamlessly integrated Stripe into the payment service, enhancing customer accessibility and boosting transaction revenue.
+- Implemented webhook event handling for real-time data reconciliation with Wise and Stripe, ensuring accurate and timely transaction processing
+- Designed and implemented a state machine to orchestrate offboarding workflows, incorporating conditional transitions and side effects
+- Integrated with multiple HR solutions such as BambooHR, Personio and HiBob
+- Extracted micro-services and their schemas from existing monolith projects.
+- Managed API interactions effectively using GraphQL, ensuring optimal data delivery and efficient API utilization.
+- Adopted a schema-first design approach with the Apollo schema registry, promoting consistency and predictability within the system.
+- Led AI enablement across engineering, including the OnCallHelper Slack investigator (trace‑ID triage) and an AI‑driven test pipeline to accelerate root‑cause analysis and release confidence.
+- Integrated AI in daily workflows using agent skills
+- Created inter-services communication with gRPC improving performance across distributed systems.
+- Led performance initiatives to eliminate N+1 query patterns, improving response times by up to ~90% on large datasets.
+- Monitored performance and operations using Kibana elastic search (ELK stack) and Grafana.
+- Utilized Sentry for alert tracking and bug detection, enhancing software reliability and user experience.
+- Followed agile scrum standards using Jira, Slack, and Notion, driving team collaboration and project management effectiveness.
+
 
 **Tech:** Java, Kotlin, Spring Boot, AWS, React, Kafka, ELK Stack, Sentry, SonarCloud, GraphQL, Apollo Federation, gRPC
 
